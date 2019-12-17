@@ -18,5 +18,6 @@ Model results:
 |-|-|
 |LR + TF-IDF|0.794278|
 |LR + CntVectorizer|0.787733|
+|LR + Doc2Vec|0.677191|
 |LR + GloVe|0.674855|
 |LR + Word2Vec|0.673213|
