@@ -9,3 +9,12 @@ The main questions of our project: **Can sarcasm can be identified with a good a
 Dataset: https://www.kaggle.com/danofer/sarcasm
 
 This is the main dataset that we used. It contains ~1.3M comments from Reddit, and an important thing is that the data is balanced.
+
+The metric used to measure model quality on validation data was AUC-ROC in order to work with probabilities of classes, not with just predictions of classes.
+
+Model results:
+
+|Model|AUC-ROC|
+|-|-|
+|LR + TF-IDF|0.794278|
+|LR + CntVectorizer|0.787733|
