@@ -18,6 +18,7 @@ Model results:
 |-|-|
 |BiLSTM + GloVe|0.809782|
 |LR + TF-IDF|0.794278|
+|BiLSTM + Word2Vec|0.794272|
 |LR + CntVectorizer|0.787733|
 |LR + Doc2Vec|0.677191|
 |LR + GloVe|0.674855|
