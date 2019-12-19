@@ -17,6 +17,7 @@ Model results:
 |Model|AUC-ROC|
 |-|-|
 |BiLSTM + GloVe|0.809782|
+|BiLSTM + ELMo|0.808948|
 |LR + TF-IDF|0.794278|
 |BiLSTM + Word2Vec|0.794272|
 |LR + CntVectorizer|0.787733|
