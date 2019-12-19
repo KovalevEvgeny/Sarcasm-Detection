@@ -12,6 +12,8 @@ This is the main dataset that we used. It contains ~1.3M comments from Reddit, a
 
 The metric used to measure model quality on validation data was AUC-ROC in order to work with probabilities of classes, not with just predictions of classes.
 
+Final notebook with all the results: https://github.com/blacKitten13/Sarcasm-Detection/blob/master/final_notebook.ipynb
+
 Model results:
 
 |Model|AUC-ROC|
